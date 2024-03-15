@@ -1,0 +1,109 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+<link rel="stylesheet" type="text/css" href="ikälaskuri.css">
+<script src="ikälaskuri.js" defer></script>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+<title>Frontend Mentor | Age calculator app</title>
+
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style>
+</head>
+
+<body>
+<div id="background">
+  <div id="background2">
+    <div class="enter"><h2>Age Calculator</h2></div>
+    <div class="container">
+      
+        <!--<div class="base">-->
+         
+                <div id="paivalaatikko">
+                <div class="title">Day</div>
+                <input 
+                type="text"
+                    name="paiva"
+                    id="paiva"
+                    placeholder="DD"
+                    required="required"
+                    minlength="1"
+                    maxlength="2"
+                />
+                <div id="virhe3"></div>
+                </div>
+            <div id="monthlaatikko">
+                <div class="title">Month</div>
+                <input
+                    type="text"
+                    name="kuukaus"
+                    id="kuukaus"
+                    placeholder="MM"
+                    required="required"
+                    minlength="1"
+                    maxlength="2"
+                    />
+                    <div id="virhe2"></div>
+                    
+            </div>
+            <div id="vuosilaatikko">
+              <div class="title">Year</div>
+              <input
+              type="text"
+              name="vuosi"
+              id="vuosi"
+              placeholder="YYYY"
+              required="required"
+              minlength="4"
+              maxlength="4"
+              />
+              <div id="virhe1"></div>
+              
+            </div>
+        <!--</div>-->
+                
+                
+      
+                
+    </div>
+    
+  
+              <div class="base">
+            <div class="enter">
+                <button id="nappi"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+                  <hr>
+                
+            </div>
+        </div>
+        
+        <div id="ika">
+          
+        </div>
+      <div id="vastaukset">
+
+        <div id="vvastaus">
+          <div id="--1">--</div><b>years</b>
+        </div>
+        <div id="kvastaus">
+          <div id="--2">--</div><b>months</b>
+        </div>
+        <div id="dvastaus">
+          <div id="--3">--</div><b>days</b>
+        </div>
+        
+      </div>
+    
+
+  </div>
+</div>
+</div>
+
+
+
+
+</script>
+</body>
+</html>

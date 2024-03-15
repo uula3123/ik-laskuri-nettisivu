@@ -1,0 +1,125 @@
+#background{
+    padding:10px;
+    
+}
+#background2{
+    background-color:white;
+    width: 650px;
+    border-top-left-radius: 5% ;
+    border-bottom-left-radius:5% ;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius:25% ;
+    height:520px;
+    margin: 33%;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+
+}
+body{
+    background-color:hsl(0, 0%, 86%) ;
+    float:middle;
+}
+#paivalaatikko{
+    margin-left: 100px;
+}
+#monthlaatikko{
+
+}
+#vuosilaatikko{
+    margin-right: 100px;
+}
+
+input#paiva{
+   border-radius: 15%;
+   width: 70px;
+   height: 50px;
+   text-align: center;
+
+}
+
+input#kuukaus{
+    border-radius: 15%;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+ 
+
+}
+hr{
+    margin:none;
+}
+input#vuosi{
+    border-radius: 15%;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+ 
+}
+h2{
+    text-align: center;
+}
+#virhe1{
+    color:hsl(0, 100%, 67%);
+    display:flex;
+}
+
+#virhe2{
+    color:hsl(0, 100%, 67%);
+    display:flex;
+
+}
+
+#virhe3{
+    color:hsl(0, 100%, 67%);
+    display:flex;
+
+}
+#nappi{
+    border-radius: 50%;
+    background-color:black;
+    text-align: right;
+    float:right;
+    margin-right: 20px;
+    padding:20px;
+}
+#vastaukset{
+    font-family: 'Poppins';
+    font-size: 62px;
+    font-weight:1000;
+    margin-left: 50px;
+    
+}
+#dvastaus{
+    display:flex;
+}
+#vvastaus{
+    display:flex;
+}
+#kvastaus{
+    display:flex;
+}
+#--1{
+    color: hsl(259, 100%, 65%);
+}
+#--2{
+    color: hsl(259, 100%, 65%);
+}
+#--3{
+    color: hsl(259, 100%, 65%);
+}
+@media only screen and (min-width: 375px) or (max-width:1440px){
+    #nappi{
+    border-radius: 50%;
+    background-color:black;
+    text-align: middle;
+    float:middle;
+    margin-right: 20px;
+    padding:20px;
+}
+}
